@@ -4,3 +4,4 @@ Elixir References:
 3) https://www.monterail.com/blog/learning-elixir-tutorial-guide - Elixir tutorials
 4) https://elixirschool.com/en/ - Elixir tutorials
 5) https://www.reddit.com/r/elixir/ - Elixir community
+6) https://en.wikipedia.org/wiki/Elixir_(programming_language) - WIKI
