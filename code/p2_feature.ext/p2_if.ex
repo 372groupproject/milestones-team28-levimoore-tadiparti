@@ -5,7 +5,7 @@ defmodule IF do
 		if true do
   			IO.puts("Hello User!")
 		else
-  			IO.puts("Unauthorized Acess!")
+  			IO.puts("Unauthorized Access!")
 		end
 
   	end
