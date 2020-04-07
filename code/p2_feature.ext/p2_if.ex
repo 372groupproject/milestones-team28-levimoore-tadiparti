@@ -1,6 +1,6 @@
 defmodule IF do
 
-	def greet do
+	def greet() do
 
 		if true do
   			IO.puts("Hello User!")
