@@ -1,5 +1,5 @@
 defmodule LOOP do
 	def greet() do
-		for x <- [1, 2, 3, 4], do: IO.puts "Hello " <> x
+		for x <- 1..5, do: IO.puts "Hello"
 	end
 end
