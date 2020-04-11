@@ -103,16 +103,46 @@ To run program follow steps 1-3 starting at line 6:
 5) Enter ListType. followed by one of the five methods described above.
 6) Done
 
+TupleType.ex:
+This file contains a module "TupleType" which contains four methods: newTuple(), getElemVal(), replaceTuple(), sizeTuple(). These four methods demonstrate how a tuple can be used in Elixir.
+newTuple() makes a tuple that contains different data typles.
+getElemVal() returns the element at index 1.
+replaceTuple() replaces the element at index 1 with "world".
+sizeTuple() returns the size of the tuple.
 
+To run program follow steps 1-3 starting at line 6:
+4) Enter c("TupleType.ex")
+5) Enter TupleType. followed by one of the four methods described above.
+6) Done
 
+AtomType.ex:
+This file contains a module "AtomType" which contains four methods: newAtom(), isEqual(), isBoolAtom(), otherFunct(atom). These four methods demonstrate how an atom can be used in Elixir.
+newAtom() mskes a new atom.
+isEqual() compares atoms to eachother.
+isBoolAtom() shows that Bools are also atoms.
+otherFunct(atom) returns the atom as a char and string.
 
+To run program follow steps 1-3 starting at line 6:
+4) Enter c("AtomType.ex")
+5) Enter AtomType. followed by one of the four methods described above.
+6) Done
 
+FloatType.ex:
+This file contains a module "FloatType" which contains two methods: arithmetic(x, y), otherFunct(x, (String) y). These four methods demonstrate how a float can be used in Elixir.
+arithmetic(x, y) does the basic arithmetic operations (+, -, *, /).
+otherFunct(x, (String) y) does the other implemented float method.
 
+To run program follow steps 1-3 starting at line 6:
+4) Enter c("FloatType.ex")
+5) Enter FloatType. followed by one of the two methods described above.
+6) Done
 
+FloatType.ex:
+This file contains a module "IntegerType" which contains two methods: arithmetic(x, y), otherFunct(x, y). These four methods demonstrate how an integer can be used in Elixir.
+arithmetic(x, y) does the basic arithmetic operations (+, -, *, /).
+otherFunct(x, y) does the other implemented float method.
 
-
-
-
-
-
-
+To run program follow steps 1-3 starting at line 6:
+4) Enter c("IntegerType.ex")
+5) Enter IntegerType. followed by one of the two methods described above.
+6) Done
