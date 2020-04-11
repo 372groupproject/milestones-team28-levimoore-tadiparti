@@ -16,7 +16,7 @@ defmodule AtomType do
 		is_boolean(:false)
 	end
 
-	def otherFunc(atom) do
+	def otherFunct(atom) do
 		Atom.to_charlist(atom)
 		Atom.to_string(atom)
 	end
