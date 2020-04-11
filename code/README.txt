@@ -140,7 +140,7 @@ To run program follow steps 1-3 starting at line 6:
 FloatType.ex:
 This file contains a module "IntegerType" which contains two methods: arithmetic(x, y), otherFunct(x, y). These four methods demonstrate how an integer can be used in Elixir.
 arithmetic(x, y) does the basic arithmetic operations (+, -, *, /).
-otherFunct(x, y) does the other implemented float method.
+otherFunct(x, y) does the other implemented integer method.
 
 To run program follow steps 1-3 starting at line 6:
 4) Enter c("IntegerType.ex")
