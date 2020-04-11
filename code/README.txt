@@ -91,6 +91,18 @@ To run program follow steps 1-3 starting at line 6:
    used to compare.
 6) Done
 
+ListType.ex:
+This file contains a module "ListType" which contains five methods: listHead(), listTail(), concatLists(), subLists(),
+lenList(). These five methods demonstrate how a list can be used in Elixir. listHead() returns the head of list 
+"[0, "hello", 4]". listTail() returns the tail of that same list. concatLists() concats [1, 2, 3] with [4, 5, 1] 
+using ++. subLists() subtracts elements from the first list that are in the second list using --, using the same list 
+as concatLists(). lenList() returns the length of list [0, "hello", 4].
+
+To run program follow steps 1-3 starting at line 6:
+4) Enter c("ListType.ex")
+5) Enter ListType. followed by one of the five methods described above.
+6) Done
+
 
 
 
