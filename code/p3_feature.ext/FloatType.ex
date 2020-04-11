@@ -7,7 +7,7 @@ defmodule FloatType do
 		IO.puts x / y
 	end
 	
-	def otherfunct(x, y)
+	def otherfunct(x, y) do
 		Float.ceil(x, 2)
 		Float.floor(x, 3)
 		Float.parse(y)
