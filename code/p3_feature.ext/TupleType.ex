@@ -2,7 +2,7 @@ defmodule TupleType do
 
     def newTuple() do
         tuple = {"hello", 10, :two}
-        IO.puts tuple
+
     end
 
     def getElemVal() do
@@ -15,7 +15,7 @@ defmodule TupleType do
         put_elem(tuple, 1, "world")
     end
 
-    def sizeTuple(str) do
+    def sizeTuple() do
         tuple = {"hello", 10, :two}
         IO.puts tuple_size(tuple)
     end
