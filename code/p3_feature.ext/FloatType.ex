@@ -9,7 +9,6 @@ defmodule FloatType do
 
     def otherFunct(x, y) do
         Float.ceil(x, 2)
-
         Float.floor(x, 3)
         Float.parse(y)
         Float.ratio(x)
