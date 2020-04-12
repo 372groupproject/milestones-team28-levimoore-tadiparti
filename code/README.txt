@@ -146,3 +146,16 @@ To run program follow steps 1-3 starting at line 6:
 4) Enter c("IntegerType.ex")
 5) Enter IntegerType. followed by one of the two methods described above.
 6) Done
+
+ErrorDemo.ex:
+This file contains a module "ErrorDemo" which has three methods: zeroError(), strPlusFloat() and runtimeError(). zeroError() 
+divdes 1 by 0 to produce an ArithmeticError. strPlusFloat() adds a string and an integer to produce an ArithmeticError. Lastly, runtimeError() accesses an invalid tuple index and produces an ArgumentError. These methods demonstrate some errors in Elixir.
+
+To run program follow steps 1-3 starting at line 6:
+4) Enter c("ErrorDemo.ex")
+5) Enter ErrorDemo. followed by one of the two methods described above.
+6) Done
+
+
+
+
