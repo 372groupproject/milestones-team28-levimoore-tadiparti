@@ -156,6 +156,24 @@ To run program follow steps 1-3 starting at line 6:
 5) Enter ErrorDemo. followed by one of the two methods described above.
 6) Done
 
+GradeCalc.ex:
+This file contains a module "GRADE" which has one method "calc". This method takes in seven parameters: name, class
+midterms, final, project and participation. Name and class are strings representing the name of a student and the
+class. Assignments and midterms are arrays of integers and or floats. The last three parameters: final, project and
+participation are integers or floats, all these represent percentages of what was obtained on said assignment. This
+method will calculate the overall grade and print if the student passed or failed the class with the grade and percentage
+printed. This method demonstrates the use of all the data types discussed in the data types section. 
+
+To run program follow steps 1-3 starting at line 6:
+4) Enter c("GradeCalc.ex")
+5) Enter GRADE.calc(), where calc takes in the seven parameters discussed in the description above.
+6) Done
+
+
+
+
+
+
 
 
 
