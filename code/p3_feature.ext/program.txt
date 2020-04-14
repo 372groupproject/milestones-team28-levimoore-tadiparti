@@ -8,6 +8,5 @@ Reads a guess from the user as a string of colors
 Scores the guess, and reports the two values back to the user
 Allows the user to continue to guess until they get it correct or reach 10 turns and they lose.
 
-We expect our program to have 3 files that follows the MVC architecture.
+We expect our program to have 3 files that follows the (maybe) MVC architecture.
 We expect to have more than 500 lines of code altogether.
- 
