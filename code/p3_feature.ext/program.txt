@@ -1,0 +1,13 @@
+Our program will implement a Mastermind game. In this game, the computer chooses 4 pegs each with one of 6 colors. The player's job is then to guess the colors that the computer has chosen in the proper order. After each guess by the player, if the player's guess is not correct, the computer will give two numbers as feedback. The first number is how many pegs are the proper color and in the proper position. The second number is how many pegs are the proper color, but not in the correct position.
+
+The game ends when the color string is correct -- and the player wins -- or they give 10 incorrect guesses -- and they lose.
+
+Generates a random computer guess of four colors out of:
+	Red, Orange, Yellow, Green, Blue, Purple
+Reads a guess from the user as a string of colors
+Scores the guess, and reports the two values back to the user
+Allows the user to continue to guess until they get it correct or reach 10 turns and they lose.
+
+We expect our program to have 3 files that follows the MVC architecture.
+We expect to have more than 500 lines of code altogether.
+ 
