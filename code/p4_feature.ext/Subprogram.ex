@@ -1,13 +1,10 @@
 defmodule Subprogram do
-
-	def randColor (colorOptions) do
-		randNum = 0
-
-		answers = []
-
-		for i <- 0..4, do:
-			randNum = Enum.random([0..6])
-			answers ++ [Enum.at(colorOptions, randNum)]
-	end
-
+    def randColor(colorOptions) do
+        randNum = 0
+        answer = []
+        answer = Enum.map [0,1,2,3], fn(x) ->
+            [Enum.at(colorOptions, Enum.random(0..5))]
+        end
+        IO.puts answer
+    end
 end
