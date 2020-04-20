@@ -1,4 +1,4 @@
-defmodule MasterMindModel do
+defmodule MasterMind do
 	
 	# This method will begin the mastermind game 
 	def start() do
@@ -7,7 +7,6 @@ defmodule MasterMindModel do
 		# TODO: get user guess
 		# TODO: Compare user guess
 		# TODO: Continue game until guesses are exhausted
-		
 	end
 	
 	# this method will generate an array with four randomly selected colors
@@ -28,6 +27,18 @@ defmodule MasterMindModel do
 		Enum.at(answer, index)
 	end
 	
-	
+	def isCorrect(guess, answer) do
+		for x <- 0..3, do:
+			if Enum.at(guess, x) != Enum.at(answer, x)
+				false
+		true
+	end
+
+	def getRightColorRightColor(guess, answer) do
+		correct = 0
+		for x <- 0..3, do:
+			if Enum.at(guess, x) != Enum.at(answer, x)
+				correct = correct + 1
+	end
 
 end
