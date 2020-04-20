@@ -169,6 +169,43 @@ To run program follow steps 1-3 starting at line 6:
 5) Enter GRADE.calc(), where calc takes in the seven parameters discussed in the description above.
 6) Done
 
+Subprogram.ex:
+This file contains a module "Subprogram" which comtains one method "randColor(colorOptions)". This method take an array
+of random color options which is used to create an array, length four, of randomly selected values from the colorOptions 
+array and returns it. This is done using a for loop and selecting random values everytime. 
+
+To run program follow steps 1-3 starting at line 6:
+4) Enter c("Subprogram.ex")
+5) Enter Subprogram.colorOptions(), where colorOptions is an array of chars representing colors.
+6) Done
+
+mildlyuseful.ex:
+This file contains a module "MILDUSE" which contains three methods: "multiply(a, b)", "addMultiply(a, b)", "sub(a, b)". 
+multiply takes in two integers , a and b, and simply multiplies them. addMultiply(a, b), multiplies a and b ny calling
+previous multiply function, then add it to the addtion of a and b like so "(a*b)+(a+b)". sub also takes in two integers
+a and b, squares a and subtracts that from b squared like so "(a*a)-(b*b)". This demonstrates how to use subprograms in 
+elixir by calling other methods in its module. 
+
+To run program follow steps 1-3 starting at line 6:
+4) Enter c("mildlyuseful.ex")
+5) Enter mildlyuseful. - followed by one of three methods described above with two integer parameters. 
+6) Done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
