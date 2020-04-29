@@ -194,12 +194,14 @@ To run program follow steps 1-3 starting at line 6:
 MasterMind.ex:
 This file is a Mastermind game. In this game, the computer chooses 4 out of the 6 colors. The player's job is then to guess the colors
 that the computer has chosen in the proper order. After each guess by the player, if the player's guess is not correct, the computer
-will give two numbers as feedback. The first number is how many colors are the proper color and in the proper position. The second
-number is how many colors are the proper color, but not in the correct position.
+will give one number as feedback. The number represents how many where the right color and right position.
 
-The game ends when the color string is correct -- and the player wins -- or they give 10 incorrect guesses -- and they lose.
+The game ends when the color string is correct -- and the player wins -- or they give 10 incorrect guesses -- and lose.
 
 To run program follow steps 1-3 starting at line 6:
 4) Enter c("MasterMind.ex")
-5) Enter MasterMind.start(guess) - where guess is an array of chars with the length of four. 
-6) Done
+5) Enter MasterMind.start() 
+6) The program will prompt you for a guess at this poingt and should be in the following form: char char char char 
+   Example: r r r r
+7) Have fun and go until you're a winner or lose
+8) Done
