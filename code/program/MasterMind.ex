@@ -8,7 +8,12 @@ defmodule MasterMind do
         guess = String.split(guess)
         game(guess, answer, 0)
     end
-
+    
+    # This method compare the computer's and user's answer and decide if the user won or not. Will
+    # prompt the user for a new input if they played less than 10 times.
+    # @Param guess is the user's answer
+    # @Param answer is the computer's answer
+    # @Param turn keeps track of how any times the user played
     def game(guess, answer, turn) do
         if turn != 10 do
             if isCorrect(guess, answer, true) == true do
@@ -42,6 +47,7 @@ defmodule MasterMind do
     # this method will check to see if the guess entered is correct to the answer
     # @Param guess is a list of char
     # @Param answer is a list of char
+    # @Param bool is the boolean value that will be returned
     def isCorrect(guess, answer, bool) do
         if length(guess) == 0 do
             bool
@@ -59,6 +65,7 @@ defmodule MasterMind do
     # This method checks the guess entered and sees how many are in the right color and poisiton and returns the number
     # @Param guess is a list of char
     # @Param answer is a list of char
+    # @Param correct keeps track of how many commom colors are in the right place of user's and computer's answers
     def getRightColorRightPosition(guess, answer, correct) do
         if length(guess) == 0 do
             correct
